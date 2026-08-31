@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #e4d9c8;
   display: flex;
@@ -5,6 +11,7 @@ body {
   min-height: 100vh;
   justify-content: center;
   align-items: center;
+  font-family: "DM Sans";
 }
 .carte {
   display: flex;
@@ -18,7 +25,6 @@ body {
 }
 p {
   color: #5c564f;
-  font-family: "DM Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -27,7 +33,6 @@ p {
 
 .date {
   color: #b44a2a;
-  font-family: "DM Sans";
   font-size: 12px;
   line-height: 16px; /* 133.333% */
   letter-spacing: 1.6px;
@@ -36,10 +41,8 @@ p {
 
 a {
   color: #b44a2a;
-  font-family: "DM Sans";
   font-size: 16px;
   line-height: 24px; /* 150% */
-  text-decoration-line: underline;
 }
 h1 {
   color: #1a1614;
